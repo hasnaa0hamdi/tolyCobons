@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'El Messiri', sans-serif;
+	text-align: center;
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  #03afa5;
+    background-color: #03afa5;
 	text-align: center;
     height: 100vh;    
 }
 .logo{
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .container {
@@ -42,6 +41,7 @@ body {
 	background-color: #fff;
 	border-radius: 15px;
 	box-shadow: 0 25px 31px 0 rgba(0,0,0,0.5);
+	text-align: center;
 }
 
 .text-area {
@@ -87,4 +87,5 @@ body {
 .end{
 	margin-bottom: 40px;
 	font-size: 30px;
+	text-align: center;
 }
