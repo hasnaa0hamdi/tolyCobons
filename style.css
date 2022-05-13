@@ -3,10 +3,10 @@
 * {
     box-sizing: border-box;
     font-family: 'El Messiri', sans-serif;
-	text-align: center;
+	 align-items: center;
 }
 body {
-    display: flex;
+    //display: flex;
     justify-content: center;
     align-items: center;
     background-color: #03afa5;
@@ -15,14 +15,22 @@ body {
 }
 .logo{
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 80px;
+	width: auto;
+	font-size:22px;
+	text-align: center;
+	color: #81d4cf;
+}
+.test{
+	margin-top:-70px;
 }
 
 .container {
 	width: 800px;
 	height: 700px;
 	text-align: center;
-	margin-right: 15px;
+	align-items: center;
+	margin-right:70px;
 }
 .header {
 	text-align: center;
@@ -47,45 +55,42 @@ body {
 .text-area {
 	text-align: center;
 	font-size: 50px;
-	color: #262626;
+	color: #000000;;
 	line-height: 1.5;
+	height: 150px;
+	margin-top: 10px;
     
 }
 .text-area .icon {
     margin-right: 5px;
 }
-.main-content .writer {
-    text-transform: uppercase;
-	letter-spacing: 5px;
-	color: red;
-	text-align: center;
-	margin-top: 20px;
-	font-size: 25px;
-	
-}
+
 .main-content .button-area {
 	display: grid;
 	place-items: center;
-	margin-top: 20px;
+	margin-top: 30px;
 	padding: 20px 0;
 }
 .button-area .btn button {
 	margin-top: 20px;
-    background-color: #262626;
+    background-color: #000000;
     color: #fff;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 45px;
     cursor: pointer;
     border: none;
     outline: none;
-    padding: 20px 30px;
+    padding: 40px 60px;
     
 }
 .button-area button:active {
     background-color: deepskyblue;
 }
 .end{
+	margin-left: 10px;
+	margin-right: 10px;
 	margin-bottom: 40px;
-	font-size: 30px;
+	font-size: 24px;
 	text-align: center;
+	color: white;
 }
